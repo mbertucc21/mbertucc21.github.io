@@ -1,0 +1,91 @@
+/* BODY & BACKGROUND */
+body {
+  margin: 0;
+  background: url("imgs/field1B.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* TITLE BOX */
+.titleBox{
+    display: flex;
+    padding: 40px;
+    /* border: black solid; */
+    background: rgba(60, 60, 120, 0.5);
+
+    justify-content: center;
+    color: white;
+    font-size: 36px;
+    font-family: 'Century Gothic', sans-serif;
+    letter-spacing: 12px;
+}
+
+/* NAV BAR */
+.red-nav{
+    background: rgba(60, 60, 120, 0.6);
+    /* border: black solid; */
+}
+
+.main-nav{
+  display: flex;
+  list-style: none;
+  margin: 0;
+  justify-content: center;
+}
+
+.main-nav li{
+  padding:  0px 20px;
+}
+
+.main-nav li:hover {
+  background-color: rgba(175, 50, 50, 0.8);
+}
+
+.main-nav a{
+  color: #f5f5f6;
+  font-family: 'Century Gothic', sans-serif;
+  text-decoration: none;
+}
+
+.main-nav a:hover{
+  color: #f5f5f6;
+  text-decoration: none;
+}
+
+/* PAGE BOX */
+.pageBox{
+    display: flex;
+    padding: 10px;
+    list-style: none;
+    background: rgba(120, 20, 50, 0.5);
+    color: white;
+    font-size: 20px;
+    letter-spacing: 4px;
+    margin: 0;
+}
+
+.push{
+  margin-left: auto;
+}
+
+.scheduleTable{
+    background-color: rgba(60, 60, 120, 0.5);
+}
+
+.scheduleTable thead{
+    background-color: rgba(60, 60, 120, 0.5);
+}
+
+
+/* FOOTER */
+.footer {
+  position: fixed;
+  width:100%;
+  text-align: center;
+  bottom: 5px;
+  font-family: 'Century Gothic', sans-serif;
+  font-size: 8px;
+  color: white;
+}

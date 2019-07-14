@@ -54,6 +54,18 @@ body {
   text-decoration: none;
 }
 
+.landing{
+  text-align: center;
+  color: red;
+  font-family: 'Century Gothic', sans-serif;
+  width: 80%;
+  height: 20%;
+  background: rgba(60, 60, 120, 0.7);
+  border: solid white;
+  padding: 40px 0px;
+  margin: 40px auto;
+}
+
 /* PAGE BOX */
 .pageBox{
     display: flex;
